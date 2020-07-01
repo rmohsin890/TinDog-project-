@@ -1,0 +1,171 @@
+body {
+  font-family: Montserrat;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+      padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+/*  Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*  Title Image */
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;  /*-- 30% from right --*/
+}
+/*  Features */
+#features {
+
+  padding: 5% 15%;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.col-lg-4 {
+  padding: 0 30px;
+}
+
+.fas {
+  width: 3px;
+  height: 3px;
+}
+
+h3 {
+
+  font-family: 'Montserrat-bold' sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+
+}
+p {
+  color: #8f8f8f;
+}
+
+.fa-bullseye {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fa-bullseye:hover {
+  color: #ff4c68;
+}
+.fa-check-circle {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fa-check-circle:hover {
+  color: #ff4c68;
+}
+.fa-heart {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fa-heart:hover {
+  color: #ff4c68;
+}
+/*  ----Testemonials----- */
+#testimonials {
+
+  text-align: center;
+  background-color:  #ef8172;
+  color: #fff;
+}
+h2 {
+  font-family: 'Montserrat-bold' sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.tesemonial-image {
+  width: 10%;
+  border-radius: 100%;  /* for making cirle */
+  margin: 20px;
+}
+.carousel-item {
+  padding: 5% 15%;
+}
+
+/*  ----press----- */
+#press {
+  background-color:  #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*  ----pricing----- */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+/*  ----Media----- */
+/* ---- it is a css break point, its mean if this condition is true (below 1028 px) beloew properties of title image
+and title would be valid, and gretaer than 1028px (normal) our normal webpage will be valid. */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/*-- Call to Action --*/
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  height: 350px;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 4.5rem;
+
+  line-height: 1.5;
+  color: #fff;
+}
+.action {
+  padding-top: 100px;
+}
+/*--  footer --*/
+#footer {
+  height: 200px;
+  text-align: center;
+  padding: 5% 30%
+}
+.footer-button {
+  margin: 0% 3% 2% 0%;
+}
